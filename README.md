@@ -1,5 +1,5 @@
 
-# Rethinking Complexity in Deep Learning for Histopathology: On the Effectiveness of Convolution-Based Architectures
+# Rethinking Complexity in Deep Learning for Histopathology: On the Effectiveness of Convolutional Architectures
 <p align="center">
    <a href="https://scholar.google.com/citations?user=oAWfLsoAAAAJ&hl=en&oi=ao" target="_blank">Qaiser Abbas</a>, 
    <a href="https://scholar.google.com/citations?user=JX3rzZ8AAAAJ&hl=en&oi=ao' target="_blank">Muhammad Irzam Liaqat</a>,
