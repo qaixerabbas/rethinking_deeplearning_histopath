@@ -1,8 +1,16 @@
 
-# Rethinking complexity in deep learning for histopathology
+# Rethinking Complexity in Deep Learning for Histopathology: On the Effectiveness of Convolution-Based Architectures
+<p align="center">
+   <a href="https://scholar.google.com/citations?user=oAWfLsoAAAAJ&hl=en&oi=ao" target="_blank">Qaiser Abbas</a>, 
+   <a href="https://scholar.google.com/citations?user=JX3rzZ8AAAAJ&hl=en&oi=ao' target="_blank">Muhammad Irzam Liaqat</a>,
+   Sabahat Qayum,
+   <a href="https://scholar.google.com/citations?user=JX3rzZ8AAAAJ&hl=en&oi=ao" target="_blank">Sadaf Hina</a>
+</p>
+
+
 ## Overview
 
-This project evaluates the performance of three Convolutional Neural Networks (CNNs) and three Vision Transformers (ViTs) on histopathological image classification tasks. The focus is on distinguishing between benign and malignant tissues in lung, colon, and breast cancers using high-resolution images at 400x magnification.
+We conducted a comprehensive evaluation of state-of-the-art convolutional and attention-based models across three distinct histopathological datasets. The performance of these models was further assessed at varying data scales, using both standard and clinically relevant diagnostic metrics. The results show that classical baseline architectures often match or even outperform more complex models, particularly when training data is limited. Moreover, training time analysis reveals that simpler convolutional models demand far fewer resources while maintaining competitive diagnostic accuracy. These findings underscore the importance of prioritising data-efficient, clinically applicable models over marginal performance gains offered by more complex architectures.
 
 ## Datasets
 
@@ -17,7 +25,6 @@ This project evaluates the performance of three Convolutional Neural Networks (C
 - **Description**: The BreakHis dataset contains 7,909 microscopic images of breast tumor tissue collected from 82 patients. The images are divided into benign and malignant categories, with further subclassifications.
 - **Image Details**: PNG format, 700x460 pixels, 3-channel RGB.
 - **Magnification Levels**: 40X, 100X, 200X, and 400X.
-- **Focus**: This project utilizes images at 400X magnification.
 - **Source**: [BreakHis Dataset](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/)
 
 ## Models Evaluated
@@ -42,8 +49,8 @@ This project evaluates the performance of three Convolutional Neural Networks (C
 
 2. **Training Protocol**:
    - Split datasets into training, validation, and test sets (70/30).
-   - Use of cross-entropy loss function.
-   - Optimization using Adam optimizer with an initial learning rate of 1e-4.
+   - Cross-entropy loss with Adam optimizer with an initial learning rate of 1e-4.
+   - Utilized a linear probing approach for each architecture.
 
 3. **Evaluation Metrics**:
    - Accuracy
