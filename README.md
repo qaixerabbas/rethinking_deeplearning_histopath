@@ -95,4 +95,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or collaborations, please contact: [mqaiser617@gmail.com](mailto:mqaiser617@gmail.com)
+For any questions, please contact: [mqaiser617@gmail.com](mailto:mqaiser617@gmail.com)
