@@ -48,8 +48,8 @@ We conducted a comprehensive evaluation of state-of-the-art convolutional and at
    - Normalization using dataset-specific mean and standard deviation.
 
 2. **Training Protocol**:
-   - Split datasets into training, validation, and test sets (70/30).
-   - Cross-entropy loss with Adam optimizer with an initial learning rate of 1e-4.
+   - Split datasets into training, validation (70/30).
+   - Cross-entropy for binary and categorical cross entropy loss for multi-class classification with Adam optimizer with an initial learning rate of 1e-4.
 
 3. **Evaluation Metrics**:
    - Accuracy
