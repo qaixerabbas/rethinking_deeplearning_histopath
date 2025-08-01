@@ -4,7 +4,7 @@
    <a href="https://scholar.google.com/citations?user=oAWfLsoAAAAJ&hl=en&oi=ao" target="_blank">Qaiser Abbas</a>, 
    <a href="https://scholar.google.com/citations?user=JX3rzZ8AAAAJ&hl=en&oi=ao' target="_blank">Muhammad Irzam Liaqat</a>,
    Sabahat Qayum,
-   <a href="https://scholar.google.com/citations?user=JX3rzZ8AAAAJ&hl=en&oi=ao" target="_blank">Sadaf Hina</a>
+   <a href="https://scholar.google.com/citations?user=GT0gkZQAAAAJ&hl=en&oi=ao" target="_blank">Sadaf Hina</a>
 </p>
 
 
