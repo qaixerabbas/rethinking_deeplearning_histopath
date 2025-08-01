@@ -33,7 +33,7 @@ We conducted a comprehensive evaluation of state-of-the-art convolutional and at
 
 1. **ResNet-50**
 2. **EfficientNet-B0**
-3. **ConvNeXt**
+3. **ConvNeXt-V2**
 
 ### Vision Transformers (ViTs)
 
