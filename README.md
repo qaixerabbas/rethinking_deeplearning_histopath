@@ -50,7 +50,6 @@ We conducted a comprehensive evaluation of state-of-the-art convolutional and at
 2. **Training Protocol**:
    - Split datasets into training, validation, and test sets (70/30).
    - Cross-entropy loss with Adam optimizer with an initial learning rate of 1e-4.
-   - Utilized a linear probing approach for each architecture.
 
 3. **Evaluation Metrics**:
    - Accuracy
